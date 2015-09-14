@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://localhost/Mine/online_shop/';
+$config['base_url']	= '';
 
 /*
 |--------------------------------------------------------------------------

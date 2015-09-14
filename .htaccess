@@ -1,6 +1,6 @@
 RewriteEngine On
 
-RewriteBase /Mine/online_shop
+RewriteBase /
 
 RewriteCond %{REQUEST_URI} ^system.*
 RewriteCond $1 !^(index\.php|images|robots\.txt)
