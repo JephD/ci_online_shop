@@ -4,6 +4,7 @@
   <?php echo anchor('store_item_colors/update/'.$item_id,'Update Item Color')."&nbsp&nbsp";?>
   <?php echo anchor('store_item_sizes/update/'.$item_id,'Update Item Sizes')."&nbsp&nbsp";?>
   <?php echo anchor('store_items/upload_pic/'.$item_id,'Update Item Pic')."&nbsp&nbsp";?>
+  <?php echo anchor('store_cat_assign/assign/'.$item_id,'Assign Categoty')."&nbsp&nbsp";?>
   <?php echo anchor('store_items/delete_item/'.$item_id,'Delete Item')."&nbsp&nbsp<br><br>";?>
 <?php endif; ?>
 

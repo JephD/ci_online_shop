@@ -6,9 +6,15 @@ function __construct() {
 parent::__construct();
 }
 
-public function admin($data)
+ function admin($data)
 {
   Modules::run('site_security/check_is_admin');
   $this->load->view('admin',$data);
+}
+
+function shop_front($data)
+{
+ Modules::run('site_security/check_is_admin');
+ $this->load->view('admin',$data);
 }
 }
