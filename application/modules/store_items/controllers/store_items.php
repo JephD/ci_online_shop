@@ -15,6 +15,17 @@ function _display_items_table()
 
 }
 
+function show()
+{
+  # code...
+  $item_id=$this->uri->segment(3);
+
+  $template="shop_front";
+  $data['view_file']="showitem";
+  $this->load->module('template');
+  $this->template->$template($data);
+}
+
 function do_upload($item_id)
 {
   # code...
