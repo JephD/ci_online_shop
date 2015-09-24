@@ -12,9 +12,9 @@ parent::__construct();
   $this->load->view('admin',$data);
 }
 
-function shop_front()
+function shop_front($data)
 {
-  $data="";
+
  Modules::run('site_security/check_is_admin');
  $this->load->view('shop_front',$data);
 }

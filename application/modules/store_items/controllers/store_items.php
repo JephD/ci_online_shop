@@ -19,6 +19,8 @@ function show()
 {
   # code...
   $item_id=$this->uri->segment(3);
+   $data['item'] =$this->get_data_from_db($item_id);
+   $data['item_id']=$item_id;
 
   $template="shop_front";
   $data['view_file']="showitem";
